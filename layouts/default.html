@@ -12,17 +12,19 @@
     <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
   </head>
   <body>
-    <nav id="sidebar">
-      <h2>okuramasafumi.com</h2>
-      <ul>
-        <li><a href="index.html">Top</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="links.html">Links</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <div id="main">
-      <%= yield %>
+    <div id="container">
+      <nav id="navigation">
+        <h2>okuramasafumi.com</h2>
+        <ul>
+          <li><a href="index.html">Top</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="main">
+        <%= yield %>
+      </div>
     </div>
   </body>
 </html>
