@@ -6,6 +6,6 @@ This is the source code of `okuramasafumi.com`
 
 # Tech Stack
 
-* [nanoc](https://nanoc.ws/) for site generation
-* [Netlify](https://www.netlify.com/) for deployment
+* [Nanoc](https://nanoc.ws/) for site generation
+* [Netlify](https://www.netlify.com/) for hosting and deployment
 * [new.css](https://newcss.net/) as base CSS framework
