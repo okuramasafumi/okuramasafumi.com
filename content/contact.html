@@ -11,19 +11,19 @@ title: Contact
 
 <form name="contact" netlify>
   <p>
-    <label for="name" required="true">Name</label>
+    <label for="name">Name</label>
     <br />
-    <input type="text" name="name" />
+    <input id="name" type="text" name="name" required />
   </p>
   <p>
-    <label for="email" required="true">Email</label>
+    <label for="email">Email</label>
     <br />
-    <input type="email" name="email" />
+    <input id="email" type="email" name="email" required />
   </p>
   <p>
-    <label for="content" required="true">Contact</label>
+    <label for="content">Contact</label>
     <br />
-    <textarea name="content" id="content" rows="5" cols="30"></textarea>
+    <textarea name="content" id="content" rows="5" cols="30" required></textarea>
   </p>
   <p>
     <button type="submit">Send</button>
