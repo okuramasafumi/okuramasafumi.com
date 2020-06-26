@@ -1,7 +1,11 @@
 #!/usr/bin/env ruby
 
 compile '/**/*.html' do
-  layout '/default.*'
+  if item.identifier.to_s.start_with?('/ja')
+    layout '/ja.layout.*'
+  else
+    layout '/default.*'
+  end
 
   write item.identifier.to_s
 end
