@@ -9,3 +9,4 @@ gem "adsf" # For `view` command
 gem "guard-nanoc"
 gem "w3c_validators"
 gem "nokogiri"
+gem "rouge"
