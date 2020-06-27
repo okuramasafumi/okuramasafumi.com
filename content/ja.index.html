@@ -3,10 +3,20 @@ title: okuramasafumi.comへようこそ！
 url: https://okuramasafumi.com/ja.index.html
 ---
 
-<h1>okuramasafumi.comへようこそ</h1>
+<h1>okuramasafumi.com</h1>
 
-<p>このウェブサイトはokuramasafumi.comです。</p>
-<p>ソフトウェアエンジニアの大倉雅史（おおくらまさふみ）の個人サイトです。</p>
-<p>もっと詳しく知りたい方は<a href="ja.about.html">アバウト</a>をご覧ください。</p>
-<p>各種リンクは<a href="ja.links.html">リンク集</a>にあります。</p>
-<p>ご連絡は<a href="ja.contact.html">コンタクト</a>からどうぞ！</p>
+<pre>
+  <code class="language-ruby">
+  you = User.yourself
+    case you.would_like_to
+    when -> (intent) { intent.know_more_about_me(in: :Japanese) }
+      visit :about
+    when FindLinks
+      visit :links
+    when :contact_me
+      visit :contact
+    else
+      raise IntentNotFound, "you might find it in English"
+    end
+  </code>
+</pre>
