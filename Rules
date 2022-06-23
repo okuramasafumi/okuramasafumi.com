@@ -6,7 +6,7 @@ compile '/**/*.html' do
   if item.identifier.to_s.start_with?('/ja')
     layout '/ja.layout.*'
   else
-    layout '/default.*'
+    layout '/layout.*'
   end
 
   write item.identifier.to_s
