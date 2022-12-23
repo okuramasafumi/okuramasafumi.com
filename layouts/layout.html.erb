@@ -11,9 +11,7 @@
     <meta property="og:image" content="./content/android-chrome-512x512.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
-    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
     <link rel="stylesheet" href="./pygment.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
@@ -28,24 +26,22 @@
     <meta name="generator" content="Nanoc <%= Nanoc::VERSION %>">
   </head>
   <body>
+    <header>
+      <h2>okuramasafumi.com</h2>
+        <a href="index.html">Top</a>
+        <a href="about.html">About</a>
+        <a href="links.html">Links</a>
+        <a href="contact.html">Contact</a>
+        <a href="ja.index.html">日本語</a>
+    </header>
     <div id="container">
-      <nav id="navigation">
-        <h2>okuramasafumi.com</h2>
-        <ul>
-          <li><a href="index.html">Top</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="links.html">Links</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="ja.index.html">日本語</a></li>
-        </ul>
-      </nav>
       <div id="main">
         <%= yield %>
       </div>
     </div>
     <footer>
       <small>
-        This website is powered by <a href="https://nanoc.ws" target="_blank" rel="noreferrer">Nanoc</a>, <a href="https://newcss.net/" target="_blank" rel="noreferrer">new.css</a> and <a href="https://www.netlify.com" target="_blank" rel="noreferrer">Netlify</a>. Proudly written with Vim :)
+        This website is powered by <a href="https://nanoc.ws" target="_blank" rel="noreferrer">Nanoc</a>, <a href="https://simplecss.org/" target="_blank" rel="noreferrer">Simple.css</a> and <a href="https://www.netlify.com" target="_blank" rel="noreferrer">Netlify</a>. Proudly written with Vim :)
       </small>
       <br />
       <small>© OKURA Masafumi. The content of this website is licensed under <a href="https://spdx.org/licenses/GPL-3.0-or-later.html" target="_blank" rel="noreferrer">GNU General Public License v3.0</a>.</small>
