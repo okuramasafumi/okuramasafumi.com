@@ -3,11 +3,7 @@
 compile '/**/*.html' do
   filter :colorize_syntax, default_colorizer: :rouge
 
-  if item.identifier.to_s.start_with?('/ja')
-    layout '/ja.layout.*'
-  else
-    layout '/layout.*'
-  end
+  layout '/layout.*'
 
   write item.identifier.to_s
 end

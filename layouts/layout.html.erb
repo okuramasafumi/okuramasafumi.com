@@ -28,17 +28,15 @@
   <body>
     <header>
       <h2>okuramasafumi.com</h2>
-      <a href="index.html">Top</a>
-      <a href="about.html">About</a>
-      <a href="links.html">Links</a>
-      <a href="contact.html">Contact</a>
-      <a href="ja.index.html">日本語</a>
+      <a href="#about">About</a>
+      <a href="#links">Links</a>
+      <a href="#contact">Contact</a>
+      <a href="index.html">English</a>
+      <a href="ja.html">日本語</a>
     </header>
-    <div id="container">
-      <div id="main">
-        <%= yield %>
-      </div>
-    </div>
+    <main>
+      <%= yield %>
+    </main>
     <footer>
       <small>
         This website is powered by <a href="https://nanoc.ws" target="_blank" rel="noreferrer">Nanoc</a>, <a href="https://simplecss.org/" target="_blank" rel="noreferrer">Simple.css</a> and <a href="https://www.netlify.com" target="_blank" rel="noreferrer">Netlify</a>. Proudly written with Vim :)
