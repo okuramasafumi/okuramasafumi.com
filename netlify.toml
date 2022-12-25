@@ -1,0 +1,47 @@
+[[redirects]]
+  from = "/about.html"
+  to = "/index.html#about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/links.html"
+  to = "/index.html#links"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/index.html#contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ja.index.html"
+  to = "/ja.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ja.about.html"
+  to = "/ja.html#about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ja.links.html"
+  to = "/ja.html#links"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ja.contact.html"
+  to = "/ja.html#contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ja.work.html"
+  to = "/ja.html#work"
+  status = 301
+  force = true
