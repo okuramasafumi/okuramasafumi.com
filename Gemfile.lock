@@ -107,10 +107,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  adsf
   nanoc
   nanoc-live
-  nokogiri
   puma
   w3c_validators
 
