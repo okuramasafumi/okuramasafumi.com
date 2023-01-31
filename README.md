@@ -8,4 +8,4 @@ This is the source code of `okuramasafumi.com`
 
 * [Nanoc](https://nanoc.ws/) for site generation
 * [Netlify](https://www.netlify.com/) for hosting and deployment
-* [new.css](https://newcss.net/) as base CSS framework
+* [Simple.css](https://simplecss.org/) as base CSS framework
