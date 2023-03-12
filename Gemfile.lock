@@ -12,7 +12,7 @@ GEM
       listen (~> 3.0)
       rack-livereload (~> 0.3)
     colored (1.2)
-    concurrent-ruby (1.2.0)
+    concurrent-ruby (1.2.2)
     cri (2.15.11)
     ddmetrics (1.0.1)
     ddplugin (1.0.3)
@@ -71,7 +71,7 @@ GEM
       nanoc-cli (~> 4.11, >= 4.11.14)
       nanoc-core (~> 4.11, >= 4.11.14)
     nio4r (2.5.8)
-    nokogiri (1.14.0)
+    nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     parallel (1.22.1)
@@ -80,10 +80,10 @@ GEM
     psych (4.0.6)
       stringio
     public_suffix (5.0.1)
-    puma (6.1.0)
+    puma (6.1.1)
       nio4r (~> 2.0)
     racc (1.6.2)
-    rack (2.2.6.2)
+    rack (2.2.6.3)
     rack-livereload (0.3.17)
       rack
     rb-fsevent (0.11.2)
@@ -101,7 +101,7 @@ GEM
       json (>= 1.8)
       nokogiri (~> 1.6)
       rexml (~> 3.2)
-    zeitwerk (2.6.6)
+    zeitwerk (2.6.7)
 
 PLATFORMS
   ruby
@@ -113,4 +113,4 @@ DEPENDENCIES
   w3c_validators
 
 BUNDLED WITH
-   2.2.19
+   2.4.8
