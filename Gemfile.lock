@@ -95,7 +95,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     slow_enumerator_tools (1.1.0)
-    stringio (3.0.6)
+    stringio (3.0.7)
     tty-color (0.6.0)
     tty-command (0.10.1)
       pastel (~> 0.8)
