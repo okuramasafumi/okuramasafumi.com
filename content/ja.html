@@ -109,7 +109,12 @@ lang: ja
 
   <h3>その他のお問い合わせ</h3>
 
-  <form name="contact" netlify>
+  <form
+    name="contact"
+    netlify-honeypot="bot-field"
+    data-netlify="true"
+    data-netlify-recaptcha="true"
+  >
     <p>
     <label for="name">お名前</label>
     <br />
