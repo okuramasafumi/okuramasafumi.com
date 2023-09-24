@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 
 compile '/**/*.html' do
-  filter :colorize_syntax, default_colorizer: :rouge
-
   layout '/layout.*'
 
   write item.identifier.to_s
