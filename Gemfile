@@ -12,5 +12,4 @@ end
 
 group :nanoc, :development do
   gem "w3c_validators" # "check" command
-  gem 'nanoc-live'
 end
