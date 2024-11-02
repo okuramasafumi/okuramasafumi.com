@@ -71,7 +71,7 @@ GEM
       nio4r (~> 2.0)
     racc (1.8.1)
     rbtree (0.4.6)
-    rexml (3.3.8)
+    rexml (3.3.9)
     set (1.1.0)
     slow_enumerator_tools (1.1.0)
     sorted_set (1.0.3)
